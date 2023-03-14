@@ -94,19 +94,19 @@
 			// englishToolStripMenuItem
 			// 
 			this.englishToolStripMenuItem.Name = "englishToolStripMenuItem";
-			this.englishToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+			this.englishToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
 			this.englishToolStripMenuItem.Text = "AddWord";
 			// 
 			// swedishToolStripMenuItem
 			// 
 			this.swedishToolStripMenuItem.Name = "swedishToolStripMenuItem";
-			this.swedishToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+			this.swedishToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
 			this.swedishToolStripMenuItem.Text = "Swedish";
 			// 
 			// spanishToolStripMenuItem
 			// 
 			this.spanishToolStripMenuItem.Name = "spanishToolStripMenuItem";
-			this.spanishToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+			this.spanishToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
 			this.spanishToolStripMenuItem.Text = "Spanish";
 			// 
 			// loadListToolStripMenuItem
@@ -185,6 +185,7 @@
 			this.SpanishButton.TabIndex = 3;
 			this.SpanishButton.Text = "Practice";
 			this.SpanishButton.UseVisualStyleBackColor = true;
+			this.SpanishButton.Click += new System.EventHandler(this.SpanishButton_Click);
 			// 
 			// linkLabel1
 			// 

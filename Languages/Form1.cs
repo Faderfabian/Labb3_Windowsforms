@@ -72,5 +72,12 @@ namespace Languages
             ShowList showlist = new ShowList(loadedList);
             showlist.ShowDialog();
 		}
+
+		private void SpanishButton_Click(object sender, EventArgs e)
+		{
+			Practice practiceForm = new Practice(loadedList);
+			practiceForm.Show();
+
+		}
 	}
 }
